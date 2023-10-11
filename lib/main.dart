@@ -53,8 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
     Task(Status.todo, "Minha primeira Task TODO", "Minha primeira descrição"),
     Task(Status.todo, "Minha segunda Task TODO", "Minha segunda descrição"),
     Task(
-        Status.todo, "Minha terceira Task ONGOING", "Minha terceira descrição"),
-    Task(Status.todo, "Minha quarta Task ONGOING", "Minha quarta descrição")
+        Status.todo, "Minha terceira Task TODO", "Minha terceira descrição"),
+    Task(Status.todo, "Minha quarta Task TODO", "Minha quarta descrição")
   ];
 
   final List<Task> tasksOnGoing = <Task>[
